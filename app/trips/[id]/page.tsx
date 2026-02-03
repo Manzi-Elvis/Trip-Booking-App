@@ -32,7 +32,7 @@ export default function TripDetailsPage() {
       </button>
 
       {/* Trip Header */}
-      <div className="bg-gradient-to-r from-primary to-primary-dark rounded-2xl p-8 text-white">
+      <div className="bg-linear-to-r from-primary to-primary-dark rounded-2xl p-8 text-white">
         <h1 className="text-3xl font-bold mb-2">
           {trip.from} → {trip.to}
         </h1>
