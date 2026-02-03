@@ -16,7 +16,7 @@ export function PageHeader({ title, description, action }: PageHeaderProps) {
           <h1 className="text-2xl sm:text-3xl font-bold text-foreground">{title}</h1>
           {description && <p className="text-sm sm:text-base text-foreground-muted mt-2">{description}</p>}
         </div>
-        {action && <div className="flex-shrink-0">{action}</div>}
+        {action && <div className="shrink-0">{action}</div>}
       </div>
     </div>
   )
