@@ -50,7 +50,7 @@ export function BookingCard({
 
       <div className="space-y-2 mb-4 sm:space-y-3">
         <div className="flex items-center gap-2 text-xs sm:text-sm">
-          <MapPin className="h-4 w-4 flex-shrink-0 text-primary" />
+          <MapPin className="h-4 w-4 shrink-0 text-primary" />
           <span className="truncate">
             {from} → {to}
           </span>
