@@ -38,7 +38,7 @@ export default function ConfirmationPage() {
             <div className="space-y-4">
               {/* Route */}
               <div className="flex items-center gap-4">
-                <MapPin className="w-6 h-6 text-primary flex-shrink-0" />
+                <MapPin className="w-6 h-6 text-primary shrink-0" />
                 <div>
                   <p className="text-sm text-foreground-muted">Route</p>
                   <p className="text-lg font-bold text-foreground">
