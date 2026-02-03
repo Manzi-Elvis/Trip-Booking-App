@@ -43,7 +43,7 @@ export default function TripDetailsPage() {
       <div className="grid gap-4 md:grid-cols-2">
         <Card>
           <div className="flex items-start gap-4">
-            <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <Clock className="w-6 h-6 text-primary shrink-0 mt-1" />
             <div>
               <p className="text-sm text-foreground-muted">Duration</p>
               <p className="text-2xl font-bold text-foreground">{trip.duration}</p>
