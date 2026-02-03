@@ -89,7 +89,7 @@ export function RegisterPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center p-4 bg-gradient-to-br from-surface to-background">
+    <div className="flex min-h-screen items-center justify-center p-4 bg-linear-to-br from-surface to-background">
       <Card className="w-full max-w-md">
         <div className="mb-8 text-center">
           <h1 className="mb-2 text-3xl font-bold">Create Account</h1>
