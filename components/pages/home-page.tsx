@@ -9,7 +9,7 @@ export function HomePage() {
   return (
     <div className="space-y-8 p-4 lg:p-8 max-w-7xl mx-auto">
       {/* Hero Section */}
-      <div className="rounded-2xl bg-gradient-to-r from-primary via-primary-dark to-primary p-8 md:p-12 text-white">
+      <div className="rounded-2xl bg-linear-to-r from-primary via-primary-dark to-primary p-8 md:p-12 text-white">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Book Your Trip Today</h1>
           <p className="text-primary-light text-lg md:text-xl">Fast, safe, and affordable transport across Rwanda</p>
