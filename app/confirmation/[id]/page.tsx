@@ -49,7 +49,7 @@ export default function ConfirmationPage() {
 
               {/* Date & Time */}
               <div className="flex items-center gap-4">
-                <Calendar className="w-6 h-6 text-primary flex-shrink-0" />
+                <Calendar className="w-6 h-6 text-primary shrink-0" />
                 <div>
                   <p className="text-sm text-foreground-muted">Departure</p>
                   <p className="text-lg font-bold text-foreground">{trip.departureTime} today</p>
