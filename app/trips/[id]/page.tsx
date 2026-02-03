@@ -75,7 +75,7 @@ export default function TripDetailsPage() {
 
         <Card>
           <div className="flex items-start gap-4">
-            <Bus className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <Bus className="w-6 h-6 text-primary shrink-0 mt-1" />
             <div>
               <p className="text-sm text-foreground-muted">Bus Company</p>
               <p className="text-2xl font-bold text-foreground">{trip.busCompany}</p>
