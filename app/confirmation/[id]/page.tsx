@@ -58,7 +58,7 @@ export default function ConfirmationPage() {
 
               {/* Seats */}
               <div className="flex items-center gap-4">
-                <Users className="w-6 h-6 text-primary flex-shrink-0" />
+                <Users className="w-6 h-6 text-primary shrink-0" />
                 <div>
                   <p className="text-sm text-foreground-muted">Seats</p>
                   <p className="text-lg font-bold text-foreground">{booking.seats.join(", ")}</p>
