@@ -84,7 +84,7 @@ export default function SelectSeatsPage() {
       </button>
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-primary to-primary-dark rounded-2xl p-6 text-white">
+      <div className="bg-linear-to-r from-primary to-primary-dark rounded-2xl p-6 text-white">
         <h1 className="text-3xl font-bold mb-2">Select Your Seats</h1>
         <p className="text-primary-light">
           {trip.from} → {trip.to}
