@@ -66,7 +66,7 @@ export function TicketCard({
       {/* Ticket */}
       <div
         ref={ticketRef}
-        className="bg-gradient-to-br from-primary to-primary-dark rounded-2xl p-8 text-white shadow-2xl"
+        className="bg-linear-to-br from-primary to-primary-dark rounded-2xl p-8 text-white shadow-2xl"
       >
         <div className="space-y-6">
           {/* Header */}
