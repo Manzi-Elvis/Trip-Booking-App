@@ -62,7 +62,7 @@ export function BookingCard({
           </span>
         </div>
         <div className="flex items-center gap-2 text-xs sm:text-sm">
-          <Ticket className="h-4 w-4 flex-shrink-0 text-primary" />
+          <Ticket className="h-4 w-4 shrink-0 text-primary" />
           <span>Price: {price}</span>
         </div>
       </div>
