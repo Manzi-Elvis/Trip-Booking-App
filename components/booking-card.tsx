@@ -43,7 +43,7 @@ export function BookingCard({
           <h3 className="font-semibold text-foreground truncate">Booking #{bookingNumber}</h3>
           <p className="text-xs sm:text-sm text-foreground-muted truncate">ID: {id}</p>
         </div>
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           <Badge className={statusColors[status]}>{status.charAt(0).toUpperCase() + status.slice(1)}</Badge>
         </div>
       </div>
