@@ -82,7 +82,7 @@ export function TicketCard({
           </div>
 
           {/* Route */}
-          <div className="py-6 border-t border-white/20 border-b border-white/20">
+          <div className="py-6 border-t border-white/20 border-b">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm opacity-75 mb-1">FROM</p>
